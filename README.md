@@ -39,3 +39,5 @@
 - Метод прямоугольников и Метод Монте-Карло
 - Целочиленное интегрирование
 - Оценка среднего и дисперсии
+
+- Про преобразование Бокса-Кокса можно почитать [тут](http://www.machinelearning.ru/wiki/index.php?title=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%91%D0%BE%D0%BA%D1%81%D0%B0-%D0%9A%D0%BE%D0%BA%D1%81%D0%B0), есть реализация в [sklern](https://scikit-learn.org/stable/modules/preprocessing.html#mapping-to-a-gaussian-distribution) ([тут](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.power_transform.html) документация)

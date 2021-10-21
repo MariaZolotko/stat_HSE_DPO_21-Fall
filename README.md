@@ -14,13 +14,19 @@
 	- Метод моментов
 	- Метод максимального правдоподобия
 
----
+<details>
+	<summary> Ссылки с занятия</summary>
+
 - Про начальный и центральный момент можно посмотреть:
-	- В [русской](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%BE%D0%B9_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D1%8B) вики есть четкий пример, когда какой момент нужен и что показывает
-	- В [английской](https://en.wikipedia.org/wiki/Moment_(mathematics)) есть похожая таблица
-	- В статье про [центральный](https://en.wikipedia.org/wiki/Central_moment) есть пара трюков для подсчетов (если вдруг интересно)
+	- В русской ([here](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%BE%D0%B9_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D1%8B)) вики есть четкий пример, когда какой момент нужен и что показывает
+	- В английской ([here](https://en.wikipedia.org/wiki/Moment_(mathematics))) есть похожая таблица
+	- В статье про центральный ([here](https://en.wikipedia.org/wiki/Central_moment)) есть пара трюков для подсчетов (если вдруг интересно)
 
 
+	
+	
+
+	
 - Про эти 2 момента, думаю, все всё знают
 	- 1 - Мат. ожидание / [Expectation](https://en.wikipedia.org/wiki/Expected_value) - 1ый начальный
 	- 2 - Дисперсия / [variance](https://en.wikipedia.org/wiki/Variance) - 2ой центральный
@@ -34,10 +40,25 @@
 	- [Тут](https://seeing-theory.brown.edu/basic-probability/index.html#section2) демонстрация ЗБЧ
 	- [Тут](https://seeing-theory.brown.edu/probability-distributions/index.html#section2) визуализация функций плотности и распределения
 	- Вообще рекомендую [все](https://seeing-theory.brown.edu/index.html#secondPage) главы на сайты полистать, там много интересных визуализаций из тер.вера и статистики
+</details>
+	
+
+---
 
 ### (2) Теория оценивания, ч.2
-- Метод прямоугольников и Метод Монте-Карло
-- Целочиленное интегрирование
-- Оценка среднего и дисперсии
+- Темы
+	- Метод прямоугольников и Метод Монте-Карло
+	- Целочиленное интегрирование
+	- Оценка среднего и дисперсии
 
 - Про преобразование Бокса-Кокса можно почитать [тут](http://www.machinelearning.ru/wiki/index.php?title=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%91%D0%BE%D0%BA%D1%81%D0%B0-%D0%9A%D0%BE%D0%BA%D1%81%D0%B0), есть реализация в [sklern](https://scikit-learn.org/stable/modules/preprocessing.html#mapping-to-a-gaussian-distribution) ([тут](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.power_transform.html) документация)
+
+
+---
+
+### (3) Доверительные интервалы
+- Темы
+	- Доверительные интервалы
+	- Распределения, связанные с нормальным
+	- Доверительные интервалы в нормальной модели
+	- Бутстрэп (параметрический и непараметрический)
